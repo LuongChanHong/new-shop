@@ -1,0 +1,114 @@
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Mitr", sans-serif;
+}
+
+html {
+  font-family: "Mitr", sans-serif;
+  box-sizing: border-box;
+  font-size: 93.75%;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+
+/* responsive  -- phần này làm chung... khi chia component có thể thiếu sót nên giữ lại*/
+
+/* PC Screen */
+/* @media only screen and (min-width: 1024px) {
+  .head-info > .flex{
+    column-gap: 0;
+  }
+  .list__search-box input {
+    width: 80%;
+  }
+  .list__bot--item-left {
+    font-size: 20px;
+    padding: 12px 15px;
+}
+
+.list__bot--item {
+  top: 0;
+}
+
+.list__bot--item-righr{
+  column-gap: 8px;
+  font-size: 12px;
+}
+.item-plus{
+  font-size: 35px;
+}
+
+} */
+
+/* Tablet Screen */
+/* @media only screen and (min-width: 740px) and (max-width: 1023px){
+  .body-main {
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+  .list {
+    flex-basis: 40%;
+  }
+  .info-class{
+    flex-basis: 50%;
+    margin: 0 20px;
+  }
+
+  .info-class > .flex {
+    column-gap: 40%;
+  }
+
+  .candidate{
+    flex-basis: 100%;
+    padding: 20px 15px;
+  }
+
+  
+} */
+
+/* Mobile Screen */
+/* @media only screen and (max-width: 739px){
+  .body-main {
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+  .list {
+    flex-basis: 100%;
+    margin: 0 20px;
+  }
+  .info-class{
+    flex-basis: 90%;
+    margin: 20px;
+  }
+  .candidate{
+    flex-basis: 100%;
+    padding: 0 15px;
+  }
+
+  
+
+  .list__bot img {
+    display: none;
+  }
+
+  .list__bot--item {
+    background-color: #fff;
+    width: 101%;
+    left: -1px;
+    border-radius: 0 0 20px;
+  }
+
+  .item-plus{
+    top: 12px;
+  }
+} */
+
+
+
+
+
+
