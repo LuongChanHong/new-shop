@@ -1,0 +1,101 @@
+.header__icon svg {
+  width: 1.5rem;
+  /* height: 1.5rem; */
+}
+
+.logo img {
+  width: 5rem;
+}
+
+.headerC__dropMenu {
+  width: 100%;
+  left: 0;
+}
+
+.headerC__wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.headerC__icon--wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.headerC__dropMenu--item {
+  border-bottom: 1px solid gray;
+}
+.headerC__dropMenu--item a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerC__dropMenu--item li :hover {
+  transition: all 0.2s ease-in-out;
+  color: var(--green-x) !important;
+}
+
+.header__search--input {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 15px 25px;
+  background-color: var(--gray-xx);
+  width: 90%;
+  height: 100%;
+  /* color: #aaacb2; */
+}
+
+.header__search--input:focus {
+  outline: none;
+}
+
+.header__search--icon {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: var(--green-x);
+  width: 15%;
+}
+
+.header__search--icon:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--green-xx);
+}
+
+.headerC__navbar {
+  width: 40%;
+}
+
+.headerC__navbar li {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.headerC__navbar li :hover {
+  transition: all 0.2s ease-in-out;
+  color: var(--green-xx) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__search--icon {
+    width: 25%;
+  }
+  .headerC__searchBar--wrapper {
+    width: 55%;
+  }
+  .headerC__wrapper {
+    margin-bottom: 0;
+  }
+  .logo img {
+    height: 4rem;
+    width: 6.5rem;
+  }
+  .headerC__icon--wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .headerC__searchBar--wrapper {
+    width: 30%;
+  }
+}

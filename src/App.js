@@ -1,5 +1,7 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -9,6 +11,9 @@ import Signup from "./pages/signup/Signup";
 import ProductList from "./pages/productList/ProductList";
 import ProductDetail from "./pages/productDetail/ProductDetail";
 import Search from "./pages/search/Search";
+
+import "./css/grid.css";
+import "./css/base.css";
 
 function App() {
   return (
